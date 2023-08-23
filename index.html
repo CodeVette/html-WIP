@@ -5,37 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv='refresh' content='1; URL=https://www.youtube.com/watch?v=du-TY1GUFGk'>
     <title>Big News</title>
-
-    <script>
-        function toggleMute() {
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     
-    var video=document.getElementById("videoId");
-    
-    if(video.muted){
-      video.muted = false;
-    } else {
-      debugger;
-      video.muted = true;
-      video.play()
-    }
-    
-    }
-    
-    $(document).ready(function(){
-    setTimeout(toggleMute,3000);
-    })
-    </script>
 </head>
 <body>
-
+<div class="container">
     <h1>It Is Wednesday My Dudes!</h1>
 
     <video wideth="400px" controls autoplay muted playsinline id="videoId">
         <source src="./Media/It Is Wednesday My Dudes Vine.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
+    </div>
 
-</hr>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" 
+  integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    
 </body>
 </html>
